@@ -1,0 +1,156 @@
+h2 {
+    font-size: 28px;
+    color: #6f6f6f;
+    text-align: left;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 5%;
+
+    // メディアクエリを使用してレスポンシブ対応
+    @media (max-width: 768px) {
+        font-size: 20px;
+    }
+}
+
+.h2-right {
+    margin-top: 6%;
+    margin-bottom: 7.5%;
+}
+
+ul {
+    margin-top: 15%;
+    border-top: 1px solid #fff;
+}
+
+li {
+    list-style: none;
+    font-size: 24px;
+    margin-bottom: 3%;
+    position: relative;
+
+    &:first-child {
+        margin-top: 10%;
+    }
+
+    button {
+        position: absolute;
+        right: 7.5%;
+        width: 20%;
+        padding: 0.75%;
+        border-radius: 15px;
+        background-color: #fff;
+        border: 3px solid #000;
+
+        &:hover {
+            background-color: #bbbbbb;
+        }
+    }
+
+    span {
+        color: #fff;
+    }
+
+}
+
+button {
+    width: 20%;
+    padding: 0.75%;
+    border-radius: 15px;
+    background-color: #fff;
+    border: 3px solid #fffdc0;
+
+    &:hover {
+        background-color: #fffdc0;
+    }
+}
+
+.container {
+    margin-bottom: 17.5%;
+
+    .button2 {
+        width: 15%;
+        margin-left: 15%;
+        padding: 0.75%;
+        border-radius: 15px;
+        background-color: #fff;
+        border: 3px solid #69cdff;
+
+        &:hover {
+            background-color: #69cdff;
+        }
+    }
+
+    .button3 {
+        width: 15%;
+        margin-left: 1.5%;
+        padding: 0.75%;
+        border-radius: 15px;
+        background-color: #fff;
+        border: 3px solid #69cdff;
+
+        &:hover {
+            background-color: #69cdff;
+        }
+    }
+
+}
+
+.box-text {
+    width: 45%;
+    height: 1.85em;
+    margin-left: 5%;
+    margin-right: 15%;
+    padding: 5px;
+    border-radius: 10px;
+    border: 3px solid #fff;
+
+    &:focus {
+        height: 1.85em;
+        box-shadow: 0 0 5px 0 #fff;
+        border: 3px solid #fff !important;
+        outline: 0;
+    }
+
+}
+
+.box-text2 {
+    width: 45%;
+    height: 1.85em;
+    margin-left: 5%;
+    padding: 2px;
+    border-radius: 10px;
+    border: 3px solid #c2c2c2;
+
+    &:focus {
+        height: 1.85em;
+        border: 3px solid #575757 !important;
+        outline: 0;
+    }
+
+}
+
+.tasks {
+    margin-bottom: 1.2%;
+
+    label {
+        margin-left: 5%;
+
+        input {
+            margin-right: 1%;
+        }
+
+        .checkbox {
+            border: 1px solid #8b98a5;
+            border-radius: 4px;
+        }
+    }
+}
+
+.card {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    font-size: 24px;
+}
